@@ -1,0 +1,80 @@
+= InferenceQL
+:database: /Users/zane/Desktop/db.edn
+
+Welcome to the InferenceQL tutorial.
+
+WARNING: This functionality is very alpha.
+
+Here's a SQL query:
+
+[,iql]
+----
+SELECT
+  Apogee_km,
+  Purpose
+FROM satellites
+----
+
+A subset of SQL queries are also valid InferenceQL.
+
+Now here's a similar query with some custom InferenceQL logic!
+
+[,iql]
+----
+SELECT
+  Apogee_km,
+  Purpose,
+
+  PROBABILITY OF Apogee_km
+  UNDER satellites_model
+  GIVEN Purpose
+FROM satellites
+----
+
+A subset of SQL queries are also valid InferenceQL.
+
+Now here's a similar query with some custom InferenceQL logic!
+
+[,iql]
+----
+SELECT
+  Apogee_km,
+  Purpose,
+
+  PROBABILITY OF Apogee_km
+  UNDER satellites_model
+  GIVEN Purpose
+FROM satellites
+----
+
+A subset of SQL queries are also valid InferenceQL.
+
+Now here's a similar query with some custom InferenceQL logic!
+
+[,iql]
+----
+SELECT
+  Apogee_km,
+  Purpose,
+
+  PROBABILITY OF Apogee_km
+  UNDER satellites_model
+  GIVEN Purpose
+FROM satellites
+----
+
+A subset of SQL queries are also valid InferenceQL.
+
+Now here's a similar query with some custom InferenceQL logic!
+
+[,iql]
+----
+SELECT
+  Apogee_km,
+  Purpose,
+
+  PROBABILITY OF Apogee_km
+  UNDER satellites_model
+  GIVEN Purpose
+FROM satellites
+----
